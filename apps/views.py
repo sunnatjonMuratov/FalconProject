@@ -3,7 +3,6 @@ from django.shortcuts import render
 from django.contrib.auth import logout
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import F, Sum, Q
-# from django.core.cache import cache
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect, get_object_or_404
 from django.urls import reverse_lazy
