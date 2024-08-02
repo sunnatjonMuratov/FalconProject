@@ -129,6 +129,7 @@ class Favorite(Model):
         unique_together = ('user', 'product')
 
 
+
 class CartItem(Model):
     product = ForeignKey('apps.Product', CASCADE)
     user = ForeignKey('apps.User', CASCADE, related_name='cart_items')
@@ -200,6 +201,3 @@ class SiteSettings(Model):
     # @property
     # def sub_tax(self):
     #     return
-
-    # TODO opshiy summadan tax di ovolish kerak nechi foiz bolsa foizda qilib
-    # TODO pdf file di order ichiga saqlash kerak boladi pdf_field = order.pdf
