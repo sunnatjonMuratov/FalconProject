@@ -20,4 +20,5 @@ FalconProject/
 ├── templates/apps/            # HTML templates for rendering views                                                                                                        
 ├── db.sqlite3                 # SQLite database                                                                                                                           
 ├── manage.py                  # Django's command-line utility                                                                                                             
-└── requirements.txt           # Python dependencies
+└── requirements.txt           # Python dependencies                                                                                                                       
+
