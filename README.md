@@ -28,30 +28,23 @@ Follow these steps to set up the project locally:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/sunnatjonMuratov/FalconProject.git
 cd FalconProject
 Set up a virtual environment (optional):
 
-bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate  # On Windows: `venv\Scripts\activate`
 Install dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Apply migrations:
 
-bash
-Copy code
 python manage.py migrate
 Run the development server:
 
-bash
-Copy code
+
 python manage.py runserver
 Visit the app:
 Open http://127.0.0.1:8000/ in your browser.
