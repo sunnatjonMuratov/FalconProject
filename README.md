@@ -52,11 +52,5 @@ Open http://127.0.0.1:8000/ in your browser.
 👨‍💻 Contributing
 Contributions are welcome! If you have any ideas or improvements, feel free to submit a pull request. Please ensure your code follows the existing style and structure.
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-📞 Contact
-If you have any questions or need further information, you can reach out to Sunnatjon Muratov.
-
 🎉 Thank you for checking out FalconProject!
 If you find this project helpful or interesting, please consider giving it a ⭐ on GitHub. Your support is appreciated!
